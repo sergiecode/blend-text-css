@@ -1,0 +1,29 @@
+.contenedor {
+    margin: 50px;
+    height: 366px;
+    width: 593px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texto {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.contenedor {
+    background-image: url(background.png);
+}
+
+.texto {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    mix-blend-mode: screen;
+}
